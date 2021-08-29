@@ -11,7 +11,7 @@
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "strictFunctionTypes": true,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "strictPropertyInitialization": true,
     "target": "es2019"
   }

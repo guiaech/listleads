@@ -16,9 +16,6 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@types/axios": "^0.14.0",
-    "@vtex/styleguide": "^9.145.1",
-    "tslint": "^6.1.3",
-    "vtex-tachyons": "^3.2.2"
+    "axios": "^0.21.1"
   }
 }
