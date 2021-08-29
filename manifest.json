@@ -1,6 +1,6 @@
 {
-  "vendor": "vtex",
-  "name": "countdown",
+  "vendor": "hiringcoders202109",
+  "name": "listleads-gui",
   "version": "0.0.1",
   "title": "Countdown",
   "description": "Countdown component",
