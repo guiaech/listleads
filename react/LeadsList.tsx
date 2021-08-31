@@ -16,6 +16,7 @@ interface Leads{
   name: string
   number: string
   recado: string
+  compra: string
 }
 
 
@@ -55,6 +56,7 @@ const LeadsList: StorefrontFunctionComponent<LeadsList> = ({}) => {
               <th className="bg-white fw6 tl bb b--black-20 pt2">Empresa</th>
               <th className="bg-white fw6 tl bb b--black-20 pt2">Data de Cadastro</th>
               <th className="bg-white fw6 tl bb b--black-20 pt2">recado</th>
+              <th className="bg-white fw6 tl bb b--black-20 pt2">Compra</th>
               </tr>
             </thead>
 
@@ -68,6 +70,7 @@ const LeadsList: StorefrontFunctionComponent<LeadsList> = ({}) => {
                   <td className="tl bb b--black-20 pt2">{lead.empresa}</td>
                   <td className="tl bb b--black-20 pt2">{lead.leads}</td>
                   <td className="tl bb b--black-20 pt2">{lead.recado}</td>
+                  <td className="tl bb b--black-20 pt2">{lead.compra}</td>
                 </tr>
               )) : ''}
             </tbody>
